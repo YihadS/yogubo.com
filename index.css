@@ -1,0 +1,10 @@
+img{
+	height: 300px;
+	width: 500px;
+}
+
+h1{
+	background: red;
+	border: 2px solid black;
+	padding: 2%;
+}
