@@ -1,6 +1,6 @@
 /*Aquí estoy importando fuentes personalizadas*/
 @font-face{
-	src:url(Batman.ttf);
+	src:url(/Batman.ttf);
 	font-family: Batman;
 } 
 
