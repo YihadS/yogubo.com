@@ -1,6 +1,6 @@
 /*Aquí estoy importando fuentes personalizadas*/
 @font-face{
-	src:url("../yogubo.com/Batman.ttf") format('truetype');
+	src:url("../Batman.ttf") format('truetype');
 	font-family: Batman;
 } 
 
