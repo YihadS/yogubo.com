@@ -1,6 +1,6 @@
 @font-face{
-	src:url('./fonts/batman.ttf') format('truetype');
-	font-family: 'Batman';
+	src:url(fonts/batman.ttf) ;
+	font-family: Batman;
 } 
 
 *{
