@@ -1,0 +1,161 @@
+@font-face{
+	src:url(fonts/Sweetie.ttf);
+	font-family: Sweetie;
+} 
+
+@font-face{
+	src:url(fonts/Animated.ttf);
+	font-family: Animated;
+} 
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#svg1{
+  margin-top: -50px;
+}
+
+/*cabecera*/
+.nav_menu{
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.nav_menu img{
+padding-right: 120px;
+padding-left: 25px;
+}
+
+.header{
+	background: #0097dc;
+	width: 100%;
+}
+.header a{
+padding-top: 7%;
+text-align: center;
+display:inline-block;
+vertical-align:top;
+font-family: Sweetie;
+font-size: 30px;
+text-indent: 20px;
+color:#ed8cb2;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+ text-decoration: none;
+ transition: all 0.4s ease-in-out;
+}
+
+.header a:hover{
+	text-decoration:  white underline;
+	color: white;
+transition: all 0.4s ease-in-out;
+}
+
+.header img{
+	height: 120px;
+	height: 120px;
+	
+}
+
+footer{
+padding-top: 4%;
+}
+
+h1{
+font-family: Sweetie;
+font-size: 40px;
+color: #0097dc;
+}
+
+p{
+color: white;
+font-size: 22px;
+font-family: Animated;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: black;
+margin-right: 10%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.s1{
+position: relative; left: 0px; top:0px;
+  float: left;
+  width:50%;
+}
+
+.seccion1:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.seccion1{
+	background: #ed8cb2;
+}
+
+.s1 img{
+	height: 450px;
+	width: 450px;
+}
+
+button{
+	background: #25D366;
+	padding: 2%;
+	color: white;
+	font-family: Sweetie;
+	border: 2px solid black;
+	font-size: 20px;
+	transition: 0.5s all ease-in-out;
+}
+
+button:hover{
+	background: #0097dc;
+	transition: 0.5s all ease-in-out;
+}
+
+/*---------*/
+.footer{
+	background: #111111;
+}
+
+.footer h1{
+color: #ed8cb2;
+}
+
+.fa {
+  padding: 14px;
+  font-size: 22px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: red;
+  color: white;
+}
+
+.fa-whatsapp{
+  background: #25D366;
+  color: white;
+}
+
+footer p{
+	padding-top: 2%;
+	margin-right: 0;
+}
