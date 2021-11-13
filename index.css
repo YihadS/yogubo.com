@@ -1,0 +1,154 @@
+/*Aquí estoy importando fuentes personalizadas*/
+@font-face{
+	src:url(fonts/Batman.ttf);
+	font-family: Batman;
+} 
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.columna{
+position: relative; left: 0px; top:0px;
+  float: left;
+  width:32.5%;
+  margin-left: 5px;
+  margin-right: 5px;
+  z-index: 999;
+}
+
+.seccion1:after{
+  content: "";
+  display: table;
+  clear: both;
+  z-index: 999;
+}
+
+.seccion1 img{
+	width:400px;
+	height:208px;
+	margin-bottom: 10px;
+}
+
+.seccion1{
+	padding-top: 5%;
+	margin-left: 25px;
+}
+
+.seccion1 img:hover{
+	box-shadow: white 0 3px 10px;
+}
+
+.columna h1{
+	display: none;
+}
+
+.footer{
+ margin-top: -100px;
+}
+
+.footer h2{
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	font-family: Batman;
+}
+
+
+
+
+
+/*---------------*/
+
+.fondo_animado {
+	background: linear-gradient(to left, #505c7c, #242424);
+	width: 100%;
+	height: 100vh;
+	z-index: 0;
+}
+
+.fondo_animado h1{
+	text-align: center;
+	font-family: Batman;
+	font-size: 60px;
+	color: white;
+	padding-top: 6%;
+}
+
+
+.caja {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    z-index: 0;
+	overflow: hidden;
+}
+
+.caja li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animacion 20s linear infinite;
+	bottom: -150px;
+}
+
+.caja li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.caja li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.caja li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.caja li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.caja li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.caja li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+
+@keyframes animacion {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
