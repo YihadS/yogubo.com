@@ -502,6 +502,7 @@ padding-left: 50%;
   border-radius: 0px;
   float: right;
    transition: all 0.5s ease-in-out;
+z-index:9999;
 }
 
 .mobile i:hover{
