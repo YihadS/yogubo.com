@@ -484,11 +484,15 @@ margin-bottom: 2%;
 
 .hamburguer a{
   display: block;
+}
 
+.nav{
+z-index:0;	
 }
 
 .nav_menu img{
 padding-left: 50%;
+z-index:0;
 }
 
 .mobile{
