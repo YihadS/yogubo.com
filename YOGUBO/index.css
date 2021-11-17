@@ -476,7 +476,7 @@ margin-bottom: 2%;
    height: 100vh;
    position: fixed;
   background: black;
-  z-index: 999;
+  z-index: 992;
   width: 100%;
   text-align: center;
   transition: all 0.5s ease-in-out;
@@ -493,6 +493,7 @@ padding-left: 50%;
 
 .mobile{
   display: block;
+z-index:9999;
 }
 
 .mobile i{
