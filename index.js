@@ -1,28 +1,31 @@
-var boton1 = document.getElementById('boton1');
-var boton2 = document.getElementById('boton2');
-var boton3 = document.getElementById('boton3');
+var img1 = document.getElementById('i1');
+var img2 = document.getElementById('i2');
+var img3 = document.getElementById('i3');
 
-function cambio1(){
-    boton1.style.display="block";
-}
+var titulo = document.getElementById('t1');
+var titulo2 = document.getElementById('t2');
+var titulo3 = document.getElementById('t3');
 
-function cambio1f(){
-    boton1.style.display="none";
-}
+img1.onmouseover = function(){
+	titulo.style.display="block";
+};
 
-function cambio2(){
-    boton2.style.display="block";
-}
+img1.onmouseout = function(){
+	titulo.style.display="none";
+};
 
-function cambio2f(){
-    boton2.style.display="none";
-}
+img2.onmouseover = function(){
+	titulo2.style.display="block";
+};
 
-function cambio3(){
-    boton3.style.display="block";
-}
+img2.onmouseout = function(){
+	titulo2.style.display="none";
+};
 
-function cambio3f(){
-    boton3.style.display="none";
-}
+img3.onmouseover = function(){
+	titulo3.style.display="block";
+};
 
+img3.onmouseout = function(){
+	titulo3.style.display="none";
+};
