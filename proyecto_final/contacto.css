@@ -1,0 +1,256 @@
+@font-face{
+  src:url(fonts/Frontage.ttf);
+  font-family: Frontage;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatRegular.otf);
+  font-family: JubilatRegular;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatBold.otf);
+  font-family: JubilatBold;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatLight.otf);
+  font-family: JubilatLight;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatSemibold.otf);
+  font-family: JubilatSemibold;
+} 
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+overflow-x: hidden;
+}
+
+.b_background{
+     background: url("img/background1.jpg") no-repeat center;
+   background-size: cover;
+}
+
+.main_menu{
+  text-align: center;
+}
+
+.main_menu img{
+  height: 150px;
+  width: 160px;
+}
+
+.main_menu a{
+  display: inline-block;
+  padding: 30px;
+  vertical-align: bottom;
+} 
+
+.main_menu h1{
+font-size: 22px;
+color: #505050;
+transition: all 0.5s ease-in-out;
+font-family: Frontage;
+}
+
+.main_menu h1:hover{
+color: #ed8cb2;
+transition: all 0.5s ease-in-out;
+}
+
+/*****/
+
+
+
+.parallax2{
+  background: url("img/footer.jpg") no-repeat center;
+  background-size: cover;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+.footer{
+  background: url("img/background1.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.footer img{
+  height: 150px;
+  width: 170px;
+}
+
+.footer h3{
+  font-size: 15px;
+  color: black;
+  font-family: JubilatLight;
+}
+
+.footer_op a{
+   display: inline-block;
+  padding: 30px;
+}
+
+.footer_op h1:hover{
+   text-decoration: underline;
+   transition: all 0.5s ease-in-out;
+}
+
+.footer_op h1{
+  font-size: 22px;
+color: #505050;
+transition: all 0.5s ease-in-out;
+font-family: Frontage;
+transition: all 0.5s ease-in-out;
+}
+
+/*---------*/
+.icons2{
+  padding-bottom: 20px;
+}
+
+.fa{
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 1%;
+  margin-left: 1%;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-instagram {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-instagram:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-whatsapp{
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-whatsapp:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+
+/***/
+.formulario{
+  position:relative;
+  padding-bottom: 4%;
+   background: url("img/background1.jpg") no-repeat center;
+   background-size: cover;
+}
+
+#f1{
+  position: absolute;
+  top: -20%;
+  left: 80%;
+  animation: mover 2.5s linear infinite;
+}
+
+#f2{
+  position: absolute;
+  left: 0%;
+  bottom: 10%;
+  animation: mover2 2.5s linear infinite;
+}
+
+.formulario form{
+  padding-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.formulario label{
+  color: black;
+  font-size: 20px;
+  font-family: JubilatRegular;
+}
+
+
+/*---------*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  font-family: JubilatRegular;
+  font-size: 25px;
+  background-color: #ed8cb2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 44%;
+  transition: all 0.5s ease-in-out;
+ 
+}
+
+
+input[type=submit]:hover {
+  background-color: #0097dc;
+  transition: all 0.5s ease-in-out;
+}
+
+/*---*/
+
+@keyframes mover {
+   0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes mover2 {
+   0%, 100% {
+    transform: translateX(60);
+  }
+  50% {
+    transform: translateX(-30px);
+  }
+}

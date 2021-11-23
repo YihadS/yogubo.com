@@ -1,0 +1,316 @@
+@font-face{
+  src:url(fonts/Frontage.ttf);
+  font-family: Frontage;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatRegular.otf);
+  font-family: JubilatRegular;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatBold.otf);
+  font-family: JubilatBold;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatLight.otf);
+  font-family: JubilatLight;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatSemibold.otf);
+  font-family: JubilatSemibold;
+} 
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+overflow-x: hidden;
+}
+
+.main_menu{
+  text-align: center;
+   box-shadow: 0 2px 15px 0 ;
+}
+
+.main_menu img{
+  height: 150px;
+  width: 160px;
+}
+
+.main_menu a{
+  display: inline-block;
+  padding: 30px;
+  vertical-align: bottom;
+} 
+
+.main_menu h1{
+font-size: 22px;
+color: #505050;
+transition: all 0.5s ease-in-out;
+font-family: Frontage;
+}
+
+.main_menu h1:hover{
+color: #ed8cb2;
+transition: all 0.5s ease-in-out;
+}
+
+
+/* Cuerpo  */
+
+.parallax{
+  background: url("img/hero.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.encabezado1{
+  z-index: 2;
+  position: relative;
+}
+
+.icons {
+ z-index: 2;
+  position: relative; 
+  color: white;
+  margin-left: 35%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#i1{
+  border: 4px solid #ed8cb2;
+  font-size: 80px;
+  padding: 2px;
+  border-radius: 50px;
+  margin-right: 55px;
+  transition: all 0.5s ease-in-out;
+}
+
+#i1:hover{
+  background: #ed8cb2;
+  transition: all 0.5s ease-in-out;
+}
+
+#i2{
+  border: 4px solid #0097dc;
+  font-size: 80px;
+  padding: 2px;
+  border-radius: 50px;
+  margin-left: 55px;
+  transition: all 0.5s ease-in-out;
+}
+
+#i2:hover{
+  background: #0097dc;
+  transition: all 0.5s ease-in-out;
+}
+
+.parallax h1{
+  color: white;
+  margin-left: 35%;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 45px;
+  font-family: JubilatRegular;
+}
+
+.parallax p{
+  color: white;
+  margin-left: 35%;
+  padding-top: 1%;
+  text-align: center;
+  font-size: 25px;
+  font-family: JubilatLight;
+}
+
+/* seccion2 */
+
+#foto1{
+  height: 350px;
+  width: 315px;
+  position: absolute;
+  top: -20%;
+  left: 75%;
+}
+
+#foto2{
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0%;
+  bottom: 10%;
+}
+
+.seccion2{
+  padding-top: 8%;
+  text-align: center;
+   position:relative;
+   background: url("img/background1.jpg") no-repeat center;
+   background-size: cover;
+}
+
+.seccion2 h1{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 45px;
+  font-family: JubilatSemibold;
+  color: black;
+}
+
+.seccion2 p{
+  padding-top: 20px;
+  margin-left: 22%;
+  margin-right: 22%;
+  font-size: 20px;
+  font-family: JubilatLight;
+  color: black;
+  line-height: 1.8;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+/*----*/
+
+.row{
+  background: #ebecef;
+}
+
+
+/*----*/
+
+.seccion3{
+  margin-top: -1.5%;
+  background: url("img/background1.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+  }
+
+.seccion3 .iconify{
+font-size: 110px;
+padding-bottom: 20px;
+}
+
+.seccion3 p{
+margin-left: 25%;
+margin-right: 25%;
+font-size: 20px;
+font-family: JubilatLight;
+line-height: 1.8;
+}
+
+/**---**/
+
+a{
+color: white;
+}
+
+a:hover{
+color: white;
+}
+
+.parallax2{
+  background: url("img/footer.jpg") no-repeat center;
+  background-size: cover;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+.footer{
+  background: url("img/background1.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.footer img{
+  height: 150px;
+  width: 170px;
+}
+
+.footer h3{
+  font-size: 15px;
+  color: black;
+  font-family: JubilatLight;
+}
+
+.footer_op a{
+   display: inline-block;
+  padding: 30px;
+}
+
+.footer_op h1:hover{
+   text-decoration: underline;
+   transition: all 0.5s ease-in-out;
+}
+
+.footer_op h1{
+  font-size: 22px;
+color: #505050;
+transition: all 0.5s ease-in-out;
+font-family: Frontage;
+transition: all 0.5s ease-in-out;
+}
+
+/*---------*/
+.icons2{
+  padding-bottom: 20px;
+}
+
+.fa{
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 1%;
+  margin-left: 1%;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-instagram {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-instagram:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-whatsapp{
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-whatsapp:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
