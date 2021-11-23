@@ -1,0 +1,244 @@
+@font-face{
+  src:url(fonts/Frontage.ttf);
+  font-family: Frontage;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatRegular.otf);
+  font-family: JubilatRegular;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatBold.otf);
+  font-family: JubilatBold;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatLight.otf);
+  font-family: JubilatLight;
+} 
+
+@font-face{
+  src:url(fonts/Jubilat/JubilatSemibold.otf);
+  font-family: JubilatSemibold;
+} 
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+overflow-x: hidden;
+}
+
+.b_background{
+     background: url("img/background1.jpg") no-repeat center;
+   background-size: cover;
+}
+
+.main_menu{
+  text-align: center;
+}
+
+.main_menu img{
+  height: 150px;
+  width: 160px;
+}
+
+.main_menu a{
+  display: inline-block;
+  padding: 30px;
+  vertical-align: bottom;
+} 
+
+.main_menu h1{
+font-size: 22px;
+color: #505050;
+transition: all 0.5s ease-in-out;
+font-family: Frontage;
+}
+
+.main_menu h1:hover{
+color: #ed8cb2;
+transition: all 0.5s ease-in-out;
+}
+
+/*****/
+
+.s1{
+position: relative; left: 0px; top:0px;
+  float: left;
+  width:33.3%;
+}
+
+.seccion1:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.seccion1{
+padding-top: 4%;
+text-align: center;
+padding-bottom: 10%;
+}
+
+.card{
+  box-shadow: 0 2px 15px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.card h5{
+  font-family: JubilatRegular;
+}
+
+.card p{
+  font-family: JubilatLight;
+}
+
+/****/
+
+.s2{
+position: relative; left: 0px; top:0px;
+  float: left;
+  width:33.3%;
+}
+
+.seccion2:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.seccion2{
+text-align: center;
+padding-bottom: 10%;
+}
+
+
+/****/
+
+.s3{
+position: relative; left: 0px; top:0px;
+  float: left;
+  width:33.3%;
+}
+
+.seccion3:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.seccion3{
+text-align: center;
+padding-bottom: 10%;
+}
+
+
+
+
+/*----*/
+.parallax2{
+  background: url("img/footer.jpg") no-repeat center;
+  background-size: cover;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+.footer{
+  background: url("img/background1.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.footer img{
+  height: 150px;
+  width: 170px;
+}
+
+.footer h3{
+  font-size: 15px;
+  color: black;
+  font-family: JubilatLight;
+}
+
+.footer_op a{
+   display: inline-block;
+  padding: 30px;
+}
+
+.footer_op h1:hover{
+   text-decoration: underline;
+   transition: all 0.5s ease-in-out;
+}
+
+.footer_op h1{
+  font-size: 22px;
+color: #505050;
+transition: all 0.5s ease-in-out;
+font-family: Frontage;
+transition: all 0.5s ease-in-out;
+}
+
+/*---------*/
+.icons2{
+  padding-bottom: 20px;
+}
+
+.fa{
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 1%;
+  margin-left: 1%;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-instagram {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-instagram:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-whatsapp{
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-whatsapp:hover {
+  border: 3px solid black;
+  transition: all 0.5s ease-in-out;
+}
