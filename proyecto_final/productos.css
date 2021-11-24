@@ -242,3 +242,17 @@ transition: all 0.5s ease-in-out;
   border: 3px solid black;
   transition: all 0.5s ease-in-out;
 }
+
+#loading {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
