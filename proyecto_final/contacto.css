@@ -254,3 +254,21 @@ input[type=submit]:hover {
     transform: translateX(-30px);
   }
 }
+
+
+
+
+
+#loading {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
